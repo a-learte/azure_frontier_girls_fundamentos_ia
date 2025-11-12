@@ -38,4 +38,4 @@ Abaixo está o print (screenshot) da execução do agente no notebook `criacao_a
 * **[Azure AI Foundry (AI Studio)](https://learn.microsoft.com/azure/ai-studio/)**: Documentação do portal usado para o deploy do modelo.
 * **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)**: Documentação do framework utilizado para construir o agente.
 * **[Repositório Base do Programa](https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia)**: O código base fornecido pelo programa.
-* **[Análise de Dados (TCC)](https://github.com/a-learte/azure-copilot-agente-esg)**: Este agente é baseado nos modelos de custo desenvolvidos na minha Tese de MBA em Data Science & Analytics (USP). O repositório completo da análise (em inglês) pode ser encontrado aqui.
+* **[Análise de Dados (TCC)](https://github.com/a-learte/azure-copilot-agente-esg)**: Este agente é baseado nos modelos de custo desenvolvidos na minha Tese de MBA em Data Science & Analytics (USP). O repositório completo da análise (em inglês) pode ser encontrado aqui https://github.com/a-learte/azure-copilot-agente-esg.
