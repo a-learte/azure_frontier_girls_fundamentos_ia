@@ -29,8 +29,8 @@ O agente utiliza um orquestrador do Microsoft Agent Framework para analisar a in
 
 Abaixo está o print (screenshot) da execução do agente no notebook `criacao_agentes.ipynb`, mostrando a pergunta do usuário e a resposta final gerada pela IA após usar a "Tool" de cálculo.
 
-> **[📸 ![alt text](<Pergunta Agente.png>)]**
-> **[📸 ![alt text](<Resultado Agente.png>)]**
+> **[📸 ![alt text](<Executando_agente_ESG.png>)]**
+> **[📸 ![alt text](<Resultado_agente_ESG.png>)]**
 
 
 ## 4. Links de Referências
