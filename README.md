@@ -17,13 +17,25 @@ Seu objetivo é fornecer uma interface de conversação simples para que um gest
 
 ## 2. A Ação Funcional (Entrega Técnica)
 
-A "1 Ação Funcional" entregue neste projeto é um **cálculo**. O agente utiliza uma "Tool" (ferramenta) personalizada em Python (`calcular_custo_empregabilidade`) para executar a lógica de negócio e retornar o valor exato.
+A "Ação Funcional" entregue neste projeto é um **cálculo**. O agente utiliza uma "Tool" (ferramenta) personalizada em Python (`calcular_custo_empregabilidade`) para executar a lógica de negócio e retornar o valor exato.
 
 ### Fluxo de Execução
 O agente utiliza um orquestrador do Microsoft Agent Framework para analisar a intenção do usuário e rotear a tarefa para a ferramenta correta.
 
 **Diagrama do Fluxo:**
-`[Usuário]` → `[Orquestrador (Azure)]` → `[Agente ESG]` → **`[Tool: calcular_custo_empregabilidade]`** → `[Agente]` → `[Resposta Final]`
+
+```mermaid
+graph LR
+    A[Usuário] -->|Pergunta sobre Custo| B(Orquestrador)
+    B -->|Identifica Intenção| C{Agente ESG}
+    C -->|Chama Tool| D[calcular_custo_empregabilidade]
+    D -->|Valida & Calcula| D
+    D -->|Retorna Valor R$| C
+    C -->|Resposta Final| A
+    
+    style C fill:#d4f1f4,stroke:#0078d4,stroke-width:2px
+    style D fill:#e1f5fe,stroke:#0078d4,stroke-width:2px
+```
 
 ## 3. Prints de Respostas e Execução
 
