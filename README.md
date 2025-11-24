@@ -1,3 +1,6 @@
+> 🚀 **PROJETO DESENVOLVIDO NO PROGRAMA AZURE FRONTIER GIRLS**
+> Este trabalho foi concebido e criado como atividade na minha jornada no **Azure Frontier Girls** – iniciativa da **Microsoft** e **WoMakersCode** para capacitação de lideranças femininas em IA e Azure.
+
 # 🤖 Desafio Azure Frontier Girls: Agente ESG
 ### Projeto de Amanda Morais
 
@@ -37,7 +40,15 @@ graph LR
     style D fill:#e1f5fe,stroke:#0078d4,stroke-width:2px
 ```
 
-## 3. Prints de Respostas e Execução
+## ☁️ 3. Infraestrutura no Azure
+
+Embora o agente seja executado via código Python, toda a inteligência é processada na nuvem da Microsoft. Abaixo, a comprovação do recurso e do modelo implantado (Deployed) que o código consome.
+
+![Deploy no Azure](Deploy_Azure.png)
+*(O código Python se conecta a este endpoint seguro para processar as intenções do usuário.)*
+
+
+## 4. Prints de Respostas e Execução
 
 Abaixo está o print (screenshot) da execução do agente no notebook `criacao_agentes.ipynb`, mostrando a pergunta do usuário e a resposta final gerada pela IA após usar a "Tool" de cálculo.
 
@@ -45,7 +56,7 @@ Abaixo está o print (screenshot) da execução do agente no notebook `criacao_a
 > **[📸 ![alt text](<Resultado_agente_ESG.png>)]**
 
 
-## 4. Links de Referências
+## 5. Links de Referências
 
 * **[Azure AI Foundry (AI Studio)](https://learn.microsoft.com/azure/ai-studio/)**: Documentação do portal usado para o deploy do modelo.
 * **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)**: Documentação do framework utilizado para construir o agente.
